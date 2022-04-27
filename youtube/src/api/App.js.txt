@@ -1,0 +1,32 @@
+import { Component, useEffect } from "react";
+import youtube from "./api/youtube";
+import Search from "./components/Search";
+import React from "react";
+
+
+// function onFormSubmit(text) {
+//   console.log(text)
+// }
+
+const onFormSubmit = async (text) => {
+  const response = await youtube.get('/search', {
+    params: {
+      q: text
+    }
+  });
+  console.log(response)
+
+  //setVideos(response.data.items)
+  //setSelectedVideo (response.data.items[0])
+};
+
+
+function App() {
+  return (
+    <>
+      <Search onFormSubmit={onFormSubmit} />
+    </>
+  );
+}
+
+export default App;
