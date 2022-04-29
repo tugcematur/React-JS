@@ -1,0 +1,10 @@
+https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d    //    normal bir api gibi davranıyor
+npm install -g json-server bunu yüklüyoruz , https://www.npmjs.com/package/json-server
+npm install axios
+
+PS C:\301Sabah\17-REACT\server\src\api>
+
+http://localhost:3000/employees
+
+npm i react-router-dom@6
+
