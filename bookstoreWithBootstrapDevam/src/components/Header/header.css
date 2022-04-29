@@ -1,0 +1,47 @@
+a.header-text{
+    color:aliceblue;
+    font-size: large;
+    font-weight:bold ;
+}
+                     /* a taginiLink olarak algılıyor React*/                        
+a.header-button{     /*a.header.button -> header button */
+
+    float:right;
+    color:aliceblue;
+    font-size:large;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+a.header-button:hover{                                                            
+    background-color:cornflowerblue;
+}
+
+/* CSS Selectors
+
+
+Selector	Example	Example description
+#id	#firstname	Selects the element with id="firstname"
+.class	.intro	Selects all elements with class="intro"
+element.class	p.intro	Selects only <p> elements with class="intro"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element,..	div, p	Selects all <div> elements and all <p> elements
+
+
+*/
+
+
+  /*
+  
+  What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+  
+  */
