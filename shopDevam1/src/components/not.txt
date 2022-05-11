@@ -1,0 +1,4 @@
+cors policy .net core
+https://www.gencayyildiz.com/blog/asp-net-core-uygulamalarinda-corscross-origin-resource-sharing-politikasi-ayarlama/
+
+API nin açık olması lazım categoryName leri görebilmek için 
