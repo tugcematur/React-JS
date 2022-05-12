@@ -1,0 +1,7 @@
+cors policy .net core
+https://www.gencayyildiz.com/blog/asp-net-core-uygulamalarinda-corscross-origin-resource-sharing-politikasi-ayarlama/
+
+npm install axios
+API nin açık olması lazım categoryName leri görebilmek için 
+
+npm install react-router-dom
