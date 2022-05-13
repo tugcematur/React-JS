@@ -9,19 +9,21 @@ import Products from './components/Products';
 function App() {
   return (
     <BrowserRouter>
-     
-   
-        <div className="row">
+
+      <Header />
+      <div className="row">
         <div className="col-md-7">
-        <Header />
+
+          <Categories />
         </div>
-        </div>
-        <Categories />
-        <div style={{ paddingTop: 50 }}>
+      </div>
+
+      <div style={{ paddingTop: 100 }}>
+        
         <Routes>
-          <Route path="/products/:id"  element={<Products/>}></Route>
+          <Route path="/products/:id" element={<Products />}></Route>
         </Routes>
-       </div>
+      </div>
     </BrowserRouter>
 
 

@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, {  useState, useEffect } from 'react';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
@@ -26,14 +26,16 @@ export default function Categories() {
 
     const renderList = clist.map(c => {
         return (
-            <div className='header-navigation'>
-                <ul>
-                    <li className="dropdown" >
-                        <a className="dropdown-toggle" data-toggle="dropdown" data-target="#" onClick={()=> navigate("/Products/" + c.categoryId,
-                        {state: { id: c.categoryId } })} >
+            <div className='header-navigation' key={c.categoryId}>
+                <ul >
+                    <li className="dropdown"  >
+                        <a className="dropdown-toggle" data-toggle="dropdown" data-target="#" onMouseEnter={()=> navigate("/Products/" + c.categoryId,
+                        {state: { id: c.categoryId } })}  >
                             {c.categoryName}
+
                         </a>
                     </li>
+                   
                 </ul>
 
             </div>
